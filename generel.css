@@ -1,0 +1,40 @@
+img {
+  max-width: 100%;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.logo {
+  text-align: center;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+body {
+  font-family: helvetica;
+  color: rgba(143, 11, 79, 0.835);
+  background-color: #f7d6b9;
+}
+
+.col {
+  border: dotted 1px rgb(184, 13, 101);
+  padding: 10px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 1.813em;
+  font-weight: 300;
+}
+
+a {
+  color: #8f0b4f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
