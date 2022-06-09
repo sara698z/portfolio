@@ -132,11 +132,11 @@ header nav ul a {
   }
   .grid_forside {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .grid_praktisk {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .sanne img {
     max-width: 50%;
