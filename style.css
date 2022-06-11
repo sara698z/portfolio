@@ -5,7 +5,7 @@
 
 .logo img {
   max-width: 40%;
-  background-color: #9ee8ff;
+  /* background-color: #9ee8ff; */
 }
 
 header nav ul {
@@ -19,24 +19,25 @@ header nav ul {
 
 header nav ul a {
   padding: 10px;
-  font-size: 1em;
+  font-size: 0.9em;
   width: 300px;
   text-decoration: none;
 }
 
-.splash h2 {
-  text-align: center;
-  font-size: 1.8em;
-  line-height: 28px;
-  word-spacing: 0.1036em;
-  font-weight: 100;
-}
 .splash h1 {
   text-align: center;
-  font-size: 3.3em;
+  font-size: 1.6em;
   line-height: 12px;
   word-spacing: 0.069em;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+.splash h2 {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 25px;
+  word-spacing: 0.1036em;
+  font-weight: 100;
 }
 
 .col h2 {
@@ -66,9 +67,6 @@ header nav ul a {
   max-width: 100%;
 }
 
-.sanne img {
-  max-width: 40%;
-}
 .grid_praktisk p {
   font-size: 1em;
   font-weight: 300;
@@ -138,8 +136,20 @@ header nav ul a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .sanne img {
-    max-width: 50%;
+
+  .splash h1 {
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 12px;
+    word-spacing: 0.069em;
+    font-weight: 200;
+  }
+  .splash h2 {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 25px;
+    word-spacing: 0.1036em;
+    font-weight: 100;
   }
 }
 
