@@ -58,11 +58,11 @@ header nav ul a {
   font-weight: 300;
 }
 
-.grid_portfolio h2 {
+/* .grid_portfolio h2 {
   font-size: 1em;
   font-weight: 400;
   line-height: 0.9;
-}
+} */
 
 @media (min-width: 600px) {
   .logo img {
@@ -104,6 +104,19 @@ header nav ul a {
   }
 }
 
-img:hover {
-  opacity: 50%;
+.mig {
+  border: dotted 1.5px rgb(184, 13, 101);
+}
+.mig p {
+  font-size: 0.8em;
+}
+.mig li {
+  line-height: 1.8;
+}
+
+.mig h1 {
+  margin-left: 10px;
+}
+.mig h3 {
+  margin-left: 10px;
 }
