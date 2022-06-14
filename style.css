@@ -34,26 +34,12 @@ header nav ul a {
   font-weight: 100;
 }
 
-.col h2 {
-  font-size: 1.2em;
-  font-weight: 500;
-  line-height: 0.3;
-}
-.col p {
-  font-size: 0.8em;
-}
-
-.grid_portfolio {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .grid_forside img {
   max-width: 100%;
 }
 .grid_portfolio col {
   text-align: left;
-  border: dotted 1px rgb(184, 13, 101);
+  /* border: dotted 1px rgb(184, 13, 101); */
 }
 
 .grid_portfolio img {
@@ -78,30 +64,6 @@ header nav ul a {
   line-height: 0.9;
 }
 
-.program {
-  border: dotted 1px rgb(184, 13, 101);
-  padding: 10px;
-  margin: 5px;
-}
-
-.program h1 {
-  font-size: 1.813em;
-  font-weight: 300;
-  margin-left: 10px;
-}
-.program h2 {
-  font-size: 1.25em;
-  font-weight: 500;
-  margin-left: 10px;
-}
-.program li {
-  font-size: 1em;
-  line-height: 1.6;
-  font-weight: 300;
-  list-style-type: none;
-  margin-left: -30px;
-}
-
 @media (min-width: 600px) {
   .logo img {
     max-width: 25%;
@@ -117,10 +79,6 @@ header nav ul a {
   .grid_forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  .grid_portfolio {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .splash h1 {
@@ -139,19 +97,13 @@ header nav ul a {
   }
 }
 
-.gaver {
-  border: dotted 1.5px rgb(184, 13, 101);
-}
-.gaver p {
-  font-size: 0.8em;
-}
-.gaver li {
-  line-height: 1.8;
+@media (min-width: 800px) {
+  .grid_portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
-.gaver h1 {
-  margin-left: 10px;
-}
-.gaver h3 {
-  margin-left: 10px;
+img:hover {
+  opacity: 50%;
 }
