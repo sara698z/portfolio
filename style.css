@@ -37,10 +37,6 @@ header nav ul a {
 .grid_forside img {
   max-width: 100%;
 }
-.grid_portfolio col {
-  text-align: left;
-  /* border: dotted 1px rgb(184, 13, 101); */
-}
 
 .grid_portfolio img {
   max-width: 100%;
@@ -57,12 +53,6 @@ header nav ul a {
   font-size: 1.7em;
   font-weight: 300;
 }
-
-/* .grid_portfolio h2 {
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 0.9;
-} */
 
 @media (min-width: 600px) {
   .logo img {
@@ -102,6 +92,19 @@ header nav ul a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .grid_web {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid_mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .col_mig {
+    padding: 10px;
+    margin: 5px;
+  }
 }
 
 .mig {
@@ -111,7 +114,7 @@ header nav ul a {
   font-size: 0.8em;
 }
 .mig li {
-  line-height: 1.8;
+  line-height: 2;
 }
 
 .mig h1 {

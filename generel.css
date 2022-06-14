@@ -20,9 +20,9 @@ body {
 }
 
 .col {
-  border: dotted 1px rgb(184, 13, 101);
+  /* border: dotted 1px rgb(184, 13, 101); */
   padding: 10px;
-  margin: 5px;
+  margin: 15px;
 }
 
 p {
